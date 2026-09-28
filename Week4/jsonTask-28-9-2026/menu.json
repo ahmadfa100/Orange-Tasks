@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Shawarma",
+        "price":30,
+        "availablity":true
+    },
+    {
+        "name":"Bugrer",
+        "price":20,
+        "availablity":true
+    },
+    {
+  
+        "name":"Zinger",
+        "price":50,
+        "availablity":true
+    }
+    
+]
