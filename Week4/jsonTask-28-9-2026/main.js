@@ -7,13 +7,13 @@ fetch("./menu.json").then(response => response.json()).then(data =>{
         item.innerHTML +="name : " + data[i].name  + "<br>"
         item.innerHTML +="price : " + data[i].price  + "<br>"
         item.innerHTML +="availablity : " + data[i].availablity  + "<br>"
-        item.innerHTML +="<hr>"
+        item.innerHTML +="<hr>" 
         arr.push(data[i].name)
         arr.push(data[i].price)
         arr.push(data[i].availablity)
 
     }
 
-    localStorage.setItem("arr", arr)
+    localStorage.setItem("arr",JSON.stringify(arr) )
 })
 
